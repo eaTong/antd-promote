@@ -16,8 +16,12 @@
   "rules": {
     // don't force es6 functions to include space before paren
     "space-before-function-paren": 0,
-
     // allow specifying true explicitly for boolean props
-    "react/jsx-boolean-value": 0
+    "react/jsx-boolean-value": 0,
+    "semi": "off",
+    "no-extra-semi": "off",
+    "semi-spacing": "off",
+    "no-return-assign": "off",
+    "react/jsx-tag-spacing": "off"
   }
 }
