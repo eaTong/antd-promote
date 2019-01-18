@@ -1,7 +1,6 @@
-import React, { Component } from 'react'
+import React, {Component} from 'react'
 import PropTypes from 'prop-types'
-
-import styles from './styles.css'
+import {Button} from 'antd'
 
 export default class ExampleComponent extends Component {
   static propTypes = {
@@ -14,8 +13,9 @@ export default class ExampleComponent extends Component {
     } = this.props
 
     return (
-      <div className={styles.test}>
+      <div>
         Example Component: {text}
+        <Button>aa</Button>
       </div>
     )
   }
